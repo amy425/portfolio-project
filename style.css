@@ -1,0 +1,13 @@
+:root {
+  --header-font: "Mukta";
+}
+
+body {
+  margin: 40px 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: var(--header-font);
+  text-align: center;
+}
