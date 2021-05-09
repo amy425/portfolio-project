@@ -105,6 +105,14 @@ footer {
     padding: 20px 20px;
     text-align: center;
   }
+
+  .portfolio-projects {
+    padding-top: 0px;
+  }
+
+  .projects {
+    padding-bottom: 0px;
+  }
 }
 
 @media (max-width: 640px) {
