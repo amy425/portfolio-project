@@ -5,7 +5,6 @@
 }
 
 body {
-  margin-top: 40px;
   text-align: center;
   font-family: var(--header-font);
 }
@@ -112,6 +111,42 @@ h3 {
   letter-spacing: 0.1em;
 }
 
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+nav .logo {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: all 120ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  text-decoration: none;
+  color: var(--highlight-color);
+}
+
 footer {
   background-color: var(--secondary-color);
   padding: 20px 0;
@@ -146,5 +181,11 @@ footer {
 
   .portfolio-content .btn-main {
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    margin: 0 auto;
   }
 }
