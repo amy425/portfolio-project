@@ -154,6 +154,15 @@ footer {
   color: white;
 }
 
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  cursor: pointer;
+  color: white;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 20px 20px;
